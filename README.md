@@ -35,3 +35,5 @@ Aplicația va primi ca input baza de date selectata de utilizator și va afișa 
 <li> “ + BD ” - permite crearea unei noi baze de date / fisier Access.</li>
 <li>  “ Configureaza DB ” - În cazul în care in baza de date exista referinte cu coloane cu tip diferit de INTEGER acest buton devine vizibil. Verifica daca in tabela parinte exista cheie primara , daca nu exista adauga o coloana ID de tip Integer. In tabela copil de va adauga o noua coloana Id_.. nume coloana veche cu tipul diferit. Se sterge vechea constrangere si se adauga o noua constrangere. Daca in tabel exista date, va adauga valori pentru coloana ID din tabel parinte , apoi pentru tabela Id_.. din tabelul copil. </li>
 </ol>
+
+<b> Pentru întrebări sau suport: petrisor.craciun34@gmail.com </b> 
