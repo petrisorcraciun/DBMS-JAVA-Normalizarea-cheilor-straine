@@ -1,5 +1,7 @@
 # DBMS-JAVA-Normalizarea-cheilor-straine
 
+Pentru dezvoltarea aplicației a fost folosit limbajul JAVA împreuna cu DBMS-ul MS Office Access.
+
 Având o baza de date se dorește impunerea integrității datelor.
 <ol>
 <li> Daca în tabel există cheie străine la fiecare rând din tabelul copil trebuie să se potrivească cu un rând din tabela parinte. </li>
@@ -10,3 +12,4 @@ Având o baza de date se dorește impunerea integrității datelor.
   <li> Pentru coloanele chei străine care au tipul de date diferit de INTEGER vor fi realizate operații pentru adaugarea unei relații de tip INTEGER.(Ștergerea referinței și adaugarea unei noi referințe pe coloane de tip INTEGER).</li>
 </ol>
 
+Aplicația va primi ca input baza de date selectata de utilizator și va afișa în interfața lista tabelelor existente în baza de date. Prin selectarea unui tabel și acționarea butonului “Selecteaza linia” în interfață vor fi afișate coloanele tabelului selectat , informații despre acestea, cheile straine existente,referințe și datele din tabelul respectiv.
