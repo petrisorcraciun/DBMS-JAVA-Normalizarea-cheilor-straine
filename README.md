@@ -14,8 +14,18 @@ Având o baza de date se dorește impunerea integrității datelor.
 
 Aplicația va primi ca input baza de date selectata de utilizator și va afișa în interfața lista tabelelor existente în baza de date. Prin selectarea unui tabel și acționarea butonului “Selecteaza linia” în interfață vor fi afișate coloanele tabelului selectat , informații despre acestea, cheile straine existente,referințe și datele din tabelul respectiv.
 
-Butoane interfata: 
 
+
+<b> Imagini interfață: </b> 
+
+<center> <img src="http://i.epvpimg.com/WFPBeab.png"> </center> 
+<center> <img src="http://i.epvpimg.com/5onufab.png"> </center>
+<center> <img src="http://i.epvpimg.com/4gUKbab.png"> </center>
+<center> <img src="http://i.epvpimg.com/viL1cab.png"> </center>
+<center> <img src="http://i.epvpimg.com/so1Rfab.png"> </center>
+
+
+<b> Butoane interfață: </b> 
 <ol>
 <li> “ + ” - acest buton permite adaugarea de noi coloane </li>
 <li> “ + FK ” - acest buton permite adaugarea de noi chei straine </li>
@@ -25,12 +35,3 @@ Butoane interfata:
 <li> “ + BD ” - permite crearea unei noi baze de date / fisier Access.</li>
 <li>  “ Configureaza DB ” - În cazul în care in baza de date exista referinte cu coloane cu tip diferit de INTEGER acest buton devine vizibil. Verifica daca in tabela parinte exista cheie primara , daca nu exista adauga o coloana ID de tip Integer. In tabela copil de va adauga o noua coloana Id_.. nume coloana veche cu tipul diferit. Se sterge vechea constrangere si se adauga o noua constrangere. Daca in tabel exista date, va adauga valori pentru coloana ID din tabel parinte , apoi pentru tabela Id_.. din tabelul copil. </li>
 </ol>
-
-<center> 
-<img src="http://i.epvpimg.com/WFPBeab.png"> 
-<img src="http://i.epvpimg.com/5onufab.png"> 
-<img src="http://i.epvpimg.com/4gUKbab.png"> 
-<img src="http://i.epvpimg.com/viL1cab.png"> 
-<img src="http://i.epvpimg.com/so1Rfab.png"> 
-</center> 
-
